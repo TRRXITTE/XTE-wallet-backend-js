@@ -1,18 +1,15 @@
-<img src="https://github.com/TRRXITTE/XTCASHEnterprise/blob/main/docs/currency.png">
-
-#### Master Build Status
-[![Build Status](https://travis-ci.org/trrxitte/xtcash-wallet-backend-js.svg?branch=master)](https://travis-ci.org/trrxitte/xtcash-wallet-backend-js)
+<img src="https://github.com/TRRXITTE/traaitt/blob/master/include/XTEterminal.png">
 
 #### NPM
-[![NPM](https://nodei.co/npm/@trrxitte/xtcash-wallet-backend.png?compact=true)](https://npmjs.org/package/xtcash-wallet-backend)
+[![NPM](https://nodei.co/npm/@trrxitte/xte-wallet-backend.png?compact=true)](https://npmjs.org/package/@trrxitte/xte-wallet-backend)
 
 #### Github
 
-https://github.com/trrxitte/xtcash-wallet-backend-js
+https://github.com/trrxitte/xte-wallet-backend-js
 
 # xtcash-wallet-backend
 
-Provides an interface to the traaittXTCASH network, allowing wallet applications to be built.
+Provides an interface to the traaittXTE network, allowing wallet applications to be built.
 
 * Downloads blocks from the network, either through a traditional daemon, or a blockchain cache for increased speed
 * Processes blocks, decrypting transactions that belong to the user
@@ -22,11 +19,11 @@ Provides an interface to the traaittXTCASH network, allowing wallet applications
 
 NPM:
 
-`npm install XTCASH-wallet-backend --save`
+`npm install XTE-wallet-backend --save`
 
 Yarn:
 
-`yarn add XTCASH-wallet-backend`
+`yarn add XTE-wallet-backend`
 
 ## Installation from GitHub
 
@@ -34,27 +31,27 @@ If you need features which have not yet made it into a release, you can install 
 
 NPM:
 
-`npm install https://github.com/trrxitte/xtcash-wallet-backend-js --save`
+`npm install https://github.com/trrxitte/xte-wallet-backend-js --save`
 
 Yarn:
 
-`yarn add https://github.com/trrxitte/xtcash-wallet-backend-js`
+`yarn add https://github.com/trrxitte/xte-wallet-backend-js`
 
 ## Documentation
 
-[You can view the documentation here](https://trrxitte.github.io/xtcash-wallet-backend-js/classes/_walletbackend_.walletbackend.html)
+[You can view the documentation here](https://trrxitte.github.io/xte-wallet-backend-js/classes/_walletbackend_.walletbackend.html)
 
 You can see a list of all the other classes on the right side of the screen.
 Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('@trrxitte/traaittcash-wallet-backend')`.
 
 ## Quick Start
 
-You can find an [example project in the examples](https://github.com/trrxitte/xtcash-wallet-backend-js/tree/master/examples/example1) folder.
+You can find an [example project in the examples](https://github.com/trrxitte/xte-wallet-backend-js/tree/master/examples/example1) folder.
 
 ### Javascript
 
 ```javascript
-const WB = require('@trrxitte/xtcash-wallet-backend');
+const WB = require('@trrxitte/xte-wallet-backend');
 
 (async () => {
     const daemon = new WB.Daemon('127.0.0.1', 14486);
@@ -82,7 +79,7 @@ const WB = require('@trrxitte/xtcash-wallet-backend');
 ### Typescript
 
 ```typescript
-import { WalletBackend, Daemon, IDaemon } from 'traaittcash-wallet-backend';
+import { WalletBackend, Daemon, IDaemon } from 'xte-wallet-backend';
 
 (async () => {
     const daemon: IDaemon = new Daemon('127.0.0.1', 14486);
