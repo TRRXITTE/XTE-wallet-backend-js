@@ -42,7 +42,7 @@ Yarn:
 [You can view the documentation here](https://trrxitte.github.io/XTE-wallet-backend-js/classes/_walletbackend_.walletbackend.html)
 
 You can see a list of all the other classes on the right side of the screen.
-Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('@trrxitte/traaittcash-wallet-backend')`.
+Note that you will need to prefix them all with `WB.` to access them, if you are not using typescript style imports, assuming you imported with `const WB = require('@trrxitte/xte-wallet-backend')`.
 
 ## Quick Start
 
@@ -336,9 +336,9 @@ Start of changelog.
 
 ### Building (For Developers)
 
-`git clone https://github.com/trrxitte/traaittcash-wallet-backend-js.git`
+`git clone https://github.com/trrxitte/xte-wallet-backend-js.git`
 
-`cd traaittcash-wallet-backend`
+`cd xte-wallet-backend`
 
 `npm install -g yarn` (Skip this if you already have yarn installed)
 
